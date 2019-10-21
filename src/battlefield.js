@@ -65,7 +65,8 @@ class Battlefield extends React.Component {
       c.stroke();
     });
     if ( cannonball ){
-      c.fillStyle = '#000';
+      c.fillStyle = '#fff';
+      c.strokeStyle = '#fff';
       c.beginPath();
       c.arc( cannonball.x, height - cannonball.y, 3, 0, 2 * Math.PI );
       c.fill();
